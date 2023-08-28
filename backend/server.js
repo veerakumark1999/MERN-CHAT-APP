@@ -17,9 +17,9 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
+/*app.get("/", (req, res) => {
   res.send("Api is  successfully running!");
-});
+});*/
 
 /*app.get("/api/chat/:id", (req, res) => {
   //console.log(req);
