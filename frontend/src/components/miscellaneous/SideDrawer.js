@@ -149,7 +149,7 @@ function SideDrawer() {
             <MenuButton p={1}>
               <NotificationBadge
                 count={notification.length}
-                effect={Effect.SCALE}
+                effect={Effect.ROTATE_Y}
               />
               <BellIcon fontSize="2xl" m={1} />
             </MenuButton>
